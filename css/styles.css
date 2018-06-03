@@ -1,0 +1,20 @@
+.employee-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 20px 20px;
+    justify-content: center;
+}
+
+.employee {
+    border: 1px solid grey;
+    font-size: 14px;
+}
+
+.employee img {
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.flex {
+    display: inline-block;
+}
