@@ -27,6 +27,13 @@ h1 {
   display: flex;
   align-items: center;
   padding: 20px 0;
+  transition: .5s;
+}
+
+.employee:hover {
+  border: 1.5px solid rgba(88, 214, 141, 0.25);
+  transition: .7s;
+  box-shadow: 10px 10px 20px rgba(88, 215, 141, 0.25), 0 10px 10px rgba(88, 215, 141, 0.25);
 }
 
 .employee p {
