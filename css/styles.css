@@ -28,6 +28,7 @@ h1 {
   align-items: center;
   padding: 20px 0;
   transition: .5s;
+  cursor: pointer;
 }
 
 .employee:hover {
